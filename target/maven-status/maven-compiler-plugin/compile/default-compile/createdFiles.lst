@@ -1,0 +1,4 @@
+me\simonfoy\craftmastergui\CraftMasterGUI.class
+me\simonfoy\craftmastergui\command\ViewRecipeCommand.class
+me\simonfoy\craftmastergui\menu\RecipeGUI.class
+me\simonfoy\craftmastergui\RecipesConfig.class

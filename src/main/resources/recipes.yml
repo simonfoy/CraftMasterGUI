@@ -1,0 +1,6 @@
+recipes:
+  diamond_pickaxe:
+    - "DIAMOND,DIAMOND,DIAMOND"
+    - "AIR,STICK,AIR"
+    - "AIR,STICK,AIR"
+  # Add more recipes here

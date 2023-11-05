@@ -1,0 +1,6 @@
+name: CraftMasterGUI
+version: '${project.version}'
+main: me.simonfoy.craftmastergui.CraftMasterGUI
+api-version: '1.20'
+commands:
+  viewrecipe:
