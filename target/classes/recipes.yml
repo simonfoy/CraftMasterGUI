@@ -1,6 +1,42 @@
 recipes:
-  diamond_pickaxe:
-    - "DIAMOND,DIAMOND,DIAMOND"
-    - "AIR,STICK,AIR"
-    - "AIR,STICK,AIR"
+  acacia_boat:
+    - "ACACIA_PLANKS,AIR,ACACIA_PLANKS"
+    - "ACACIA_PLANKS,ACACIA_PLANKS,ACACIA_PLANKS"
+    - "AIR,AIR,AIR"
+  acacia_button:
+    - "ACACIA_PLANKS,AIR,AIR"
+    - "AIR,AIR,AIR"
+    - "AIR,AIR,AIR"
+  acacia_chest_boat:
+    - "AIR,AIR,AIR"
+    - "CHEST,ACACIA_BOAT,AIR"
+    - "AIR,AIR,AIR"
+  acacia_door:
+    - "ACACIA_PLANKS,ACACIA_PLANKS,AIR"
+    - "ACACIA_PLANKS,ACACIA_PLANKS,AIR"
+    - "ACACIA_PLANKS,ACACIA_PLANKS,AIR"
+  acacia_fence:
+    - "ACACIA_PLANKS,STICK,ACACIA_PLANKS"
+    - "ACACIA_PLANKS,STICK,ACACIA_PLANKS"
+    - "AIR,AIR,AIR"
+  acacia_fence_gate:
+    - "STICK,ACACIA_PLANKS,STICK"
+    - "STICK,ACACIA_PLANKS,STICK"
+    - "AIR,AIR,AIR"
+  acacia_hanging_sign:
+    - "CHAIN,AIR,CHAIN"
+    - "STRIPPED_ACACIA_LOG,STRIPPED_ACACIA_LOG,STRIPPED_ACACIA_LOG"
+    - "STRIPPED_ACACIA_LOG,STRIPPED_ACACIA_LOG,STRIPPED_ACACIA_LOG"
+  acacia_leaves:
+    - "AIR,AIR,AIR"
+    - "AIR,AIR,AIR"
+    - "AIR,AIR,AIR"
+  acacia_log:
+    - "AIR,AIR,AIR"
+    - "AIR,AIR,AIR"
+    - "AIR,AIR,AIR"
+  acacia_planks:
+    - "ACACIA_LOG,AIR,AIR"
+    - "AIR,AIR,AIR"
+    - "AIR,AIR,AIR"
   # Add more recipes here
