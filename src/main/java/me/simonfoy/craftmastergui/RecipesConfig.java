@@ -4,6 +4,7 @@ import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 
 import java.io.File;
+import java.util.Set;
 
 public class RecipesConfig {
     private FileConfiguration recipesConfig = null;
@@ -26,5 +27,9 @@ public class RecipesConfig {
             reloadConfig();
         }
         return recipesConfig;
+    }
+
+    public Set<String> getRecipeKeys() {
+        return getConfig().getConfigurationSection("recipes").getKeys(false);
     }
 }

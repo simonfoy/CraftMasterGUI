@@ -11,8 +11,10 @@ public final class CraftMasterGUI extends JavaPlugin {
         RecipesConfig recipesConfig = new RecipesConfig(this);
         recipesConfig.reloadConfig();
 
+        ViewRecipeCommand viewRecipeCommand = new ViewRecipeCommand(this, recipesConfig);
 
-        this.getCommand("viewrecipe").setExecutor(new ViewRecipeCommand(this, recipesConfig));
+        this.getCommand("viewrecipe").setExecutor(viewRecipeCommand);
+        this.getCommand("viewrecipe").setTabCompleter(viewRecipeCommand);
     }
 
     @Override

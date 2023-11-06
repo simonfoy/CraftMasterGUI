@@ -7,10 +7,15 @@ import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
+import org.bukkit.command.TabCompleter;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.Inventory;
 
-public class ViewRecipeCommand implements CommandExecutor {
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class ViewRecipeCommand implements CommandExecutor, TabCompleter {
     private final CraftMasterGUI craftMasterGUI;
     private final RecipesConfig recipesConfig;
 
@@ -36,5 +41,15 @@ public class ViewRecipeCommand implements CommandExecutor {
             }
         }
         return false;
+    }
+
+    @Override
+    public List<String> onTabComplete(CommandSender sender, Command cmd, String label, String[] args) {
+        if (args.length == 1) {
+            return new ArrayList<>(recipesConfig.getRecipeKeys()).stream()
+                    .filter(name -> name.startsWith(args[0].toLowerCase()))
+                    .collect(Collectors.toList());
+        }
+        return new ArrayList<>();
     }
 }
