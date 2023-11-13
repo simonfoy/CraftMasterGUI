@@ -39,4 +39,40 @@ recipes:
     - "ACACIA_LOG,AIR,AIR"
     - "AIR,AIR,AIR"
     - "AIR,AIR,AIR"
+  acacia_pressure_plate:
+    - "AIR,AIR,AIR"
+    - "ACACIA_PLANKS,ACACIA_PLANKS,AIR"
+    - "AIR,AIR,AIR"
+  acacia_sapling:
+    - "AIR,AIR,AIR"
+    - "AIR,AIR,AIR"
+    - "AIR,AIR,AIR"
+  acacia_sign:
+    - "ACACIA_PLANKS,ACACIA_PLANKS,ACACIA_PLANKS"
+    - "ACACIA_PLANKS,ACACIA_PLANKS,ACACIA_PLANKS"
+    - "AIR,STICK,AIR"
+  acacia_slab:
+    - "AIR,AIR,AIR"
+    - "ACACIA_PLANKS,ACACIA_PLANKS,ACACIA_PLANKS"
+    - "AIR,AIR,AIR"
+  acacia_stairs:
+    - "ACACIA_PLANKS,AIR,AIR"
+    - "ACACIA_PLANKS,ACACIA_PLANKS,AIR"
+    - "ACACIA_PLANKS,ACACIA_PLANKS,ACACIA_PLANKS"
+  acacia_trapdoor:
+    - "ACACIA_PLANKS,ACACIA_PLANKS,ACACIA_PLANKS"
+    - "ACACIA_PLANKS,ACACIA_PLANKS,ACACIA_PLANKS"
+    - "AIR,AIR,AIR"
+  acacia_wood:
+    - "ACACIA_LOG,ACACIA_LOG,AIR"
+    - "ACACIA_LOG,ACACIA_LOG,AIR"
+    - "AIR,AIR,AIR"
+  activator_rail:
+    - "IRON_INGOT,STICK,IRON_INGOT"
+    - "IRON_INGOT,REDSTONE_TORCH,IRON_INGOT"
+    - "IRON_INGOT,STICK,IRON_INGOT"
+  air:
+    - "AIR,AIR,AIR"
+    - "AIR,AIR,AIR"
+    - "AIR,AIR,AIR"
   # Add more recipes here
